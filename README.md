@@ -9,24 +9,36 @@ for more infos about the program please viste links bellow
 ## Installation
 To install the dependencies, run the following command:
 
-`sudo apt-get install qtbase5-dev qt5-qmake qtbase5-dev-tools libqt5widgets5 libqt5gui5 libqt5core5a`
+```bash
+sudo apt-get install qtbase5-dev qt5-qmake qtbase5-dev-tools libqt5widgets5 libqt5gui5 libqt5core5a
+```
 
 after clone the project:
 
+```bash
 `git clone https://github.com/VICTORxEVO/valkyrie-2.0.0.git && cd valkyrie-2.0.0`
+```
 
 compile it
 
+```bash
 `qmake && make`
+```
 
 install it:
 
+```bash
 `sudo make install`
+```
 
 to verify if successfully installed run:
 
+```bash
 `valkyrie --version`
+```
 
 to run it:
 
+```bash
 `valkyrie`
+```
